@@ -15,7 +15,7 @@ export class AppComponent {
             authDomain: 'bibligular.firebaseapp.com',
             databaseURL: 'https://bibligular.firebaseio.com',
             projectId: 'bibligular',
-            storageBucket: '',
+            storageBucket: 'gs://bibligular.appspot.com/',
             messagingSenderId: '962996594869'
         };
         firebase.initializeApp(config);
